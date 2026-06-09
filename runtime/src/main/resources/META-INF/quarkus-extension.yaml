@@ -1,9 +1,10 @@
 name: Quarkus Extension Status
-#description: Do something useful.
+description: Exposes ApiStatus endpoint to monitor the API status
+artifact: ${project.groupId}:${project.artifactId}:${project.version}
 metadata:
-#  keywords:
-#    - quarkus-extension-status
+  keywords:
+    - quarkus-extension-status
 #  guide: ... # To create and publish this guide, see https://github.com/quarkiverse/quarkiverse/wiki#documenting-your-extension
-#  categories:
-#    - "miscellaneous"
-#  status: "preview"
+  categories:
+   - "miscellaneous"
+  status: "experimental"
