@@ -1,5 +1,5 @@
 name: Quarkus Extension Status
-description: Exposes ApiStatus endpoint to monitor the API status
+description: Exposes ApiStatus endpoint to monitor the API status (uses last 2 parts of quarkus.http.root-path as serviceName and version)
 artifact: ${project.groupId}:${project.artifactId}:${project.version}
 metadata:
   keywords:
